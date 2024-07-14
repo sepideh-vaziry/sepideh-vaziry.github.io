@@ -1,152 +1,114 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Resume - Sepideh Vaziry</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Roboto'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <style>
-        body {
-            font-family: 'Arial', sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f4f4f4;
-            color: #333;
-        }
-        .container {
-            max-width: 900px;
-            margin: 20px auto;
-            padding: 20px;
-            background-color: #fff;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-        }
-        h1, h2 {
-            color: #333;
-        }
-        h1 {
-            border-bottom: 2px solid #333;
-            padding-bottom: 10px;
-        }
-        .contact-info, .skills, .experience, .projects, .education, .languages {
-            margin-bottom: 30px;
-        }
-        .contact-info p, .skills ul, .experience ul, .projects ul, .education p, .languages p {
-            margin: 10px 0;
-        }
-        .skills ul, .experience ul, .projects ul {
-            list-style-type: none;
-            padding: 0;
-        }
-        .skills ul li, .experience ul li, .projects ul li {
-            background: #f9f9f9;
-            margin-bottom: 5px;
-            padding: 10px;
-            border: 1px solid #ddd;
-        }
-        .experience ul li ul, .projects ul li ul {
-            margin-top: 10px;
-        }
-        .experience ul li ul li, .projects ul li ul li {
-            background: #fff;
-            border: none;
-            margin: 0;
-            padding: 0;
-        }
-        .contact-info a {
-            color: #0073e6;
-            text-decoration: none;
-        }
-        .contact-info a:hover {
-            text-decoration: underline;
-        }
+        html, body, h1, h2, h3, h4, h5, h6 {font-family: "Roboto", sans-serif}
     </style>
 </head>
-<body>
-    <div class="container">
-        <h1>Sepideh Vaziry</h1>
-        <div class="contact-info">
-            <p><strong>Java Backend Developer</strong></p>
-            <p>Tehran, Iran</p>
-            <p>Phone: (+98) 9126433991</p>
-            <p>Email: <a href="mailto:sepideh.vaziry@gmail.com">sepideh.vaziry@gmail.com</a></p>
-            <p>GitHub: <a href="https://github.com/sepideh-vaziry">github.com/sepideh-vaziry</a></p>
-            <p>LinkedIn: <a href="https://linkedin.com/in/sepideh-vaziry">linkedin.com/in/sepideh-vaziry</a></p>
+<body class="w3-light-grey">
+
+<!-- Page Container -->
+<div class="w3-content w3-margin-top" style="max-width:1400px;">
+
+  <!-- The Grid -->
+  <div class="w3-row-padding">
+  
+    <!-- Left Column -->
+    <div class="w3-third">
+    
+      <div class="w3-white w3-text-grey w3-card-4">
+        <div class="w3-container">
+          <h2>Sepideh Vaziry</h2>
+          <p><i class="fa fa-briefcase fa-fw w3-margin-right w3-large w3-text-teal"></i>Java Backend Developer</p>
+          <p><i class="fa fa-home fa-fw w3-margin-right w3-large w3-text-teal"></i>Tehran, Iran</p>
+          <p><i class="fa fa-envelope fa-fw w3-margin-right w3-large w3-text-teal"></i>sepideh.vaziry@gmail.com</p>
+          <p><i class="fa fa-phone fa-fw w3-margin-right w3-large w3-text-teal"></i>+989126433991</p>
+          <hr>
+
+          <p class="w3-large"><b><i class="fa fa-asterisk fa-fw w3-margin-right w3-text-teal"></i>Skills</b></p>
+          <p>Java</p>
+          <p>Kotlin</p>
+          <p>Spring Boot</p>
+          <p>MySQL, PostgreSQL</p>
+          <p>Redis</p>
+          <p>RabitMQ, Apache Kafka</p>
+          <p>Elasticsearch</p>
+          <p>Grafana, Prometheus, Loki</p>
+          <p>Docker</p>
+          <p>Kubernetes</p>
+          <p>Helm, ArgoCD</p>
+          <p>Gitlab CI/CD</p>
+          <p>HashiCorp Vault</p>
+          <p>Liquibase</p>
+          <br>
+
+          <p class="w3-large w3-text-theme"><b><i class="fa fa-globe fa-fw w3-margin-right w3-text-teal"></i>Languages</b></p>
+          <p>English</p>
+          <p>Persian</p>
         </div>
-        <h2>Skills</h2>
-        <div class="skills">
-            <ul>
-                <li>Java</li>
-                <li>Kotlin</li>
-                <li>Spring Boot</li>
-                <li>Spring Security</li>
-                <li>JPA / Hibernate</li>
-                <li>API Gateway</li>
-                <li>Unit/Integration Testing</li>
-                <li>MySQL, PostgreSQL</li>
-                <li>Redis</li>
-                <li>RabbitMQ</li>
-                <li>Liquibase</li>
-                <li>Elasticsearch</li>
-                <li>Grafana, Prometheus, Loki</li>
-                <li>HashiCorp Vault</li>
-                <li>Docker, Docker Compose</li>
-                <li>Kubernetes</li>
-                <li>Helm, Argo CD</li>
-                <li>Git</li>
-                <li>GitLab-CI/CD</li>
-                <li>OOP, SOLID, Design Patterns</li>
-                <li>Linux</li>
-            </ul>
-        </div>
-        <h2>Experience</h2>
-        <div class="experience">
-            <ul>
-                <li>
-                    <strong>Java Backend Developer - Teanab Parto Shargh | Tehran, Iran | 2018 - Present</strong>
-                    <ul>
-                        <li>Developed and maintained a scalable and efficient backend system, improving system performance by 30%.</li>
-                        <li>Applied best practices and design patterns to write clean, maintainable, and testable code, reducing system bugs by 50%.</li>
-                        <li>Implemented database optimization strategies, increasing query speeds by 40%.</li>
-                        <li>Created comprehensive unit tests, reducing testing time by 30% and increasing test coverage by 40%.</li>
-                        <li>Collaborated with front-end teams to enhance user experience, leading to a 20% increase in website traffic.</li>
-                        <li>Enhanced system security, safeguarding sensitive data by up to 30%.</li>
-                        <li>Troubleshot and debugged applications, resolving critical issues and reducing downtime by 30%.</li>
-                        <li>Mentored and trained junior team members, accelerating feature delivery speed by 25%.</li>
-                        <li>Created and maintained documentation, improving communication and reducing onboarding time by 20%.</li>
-                    </ul>
-                </li>
-                <li>
-                    <strong>Java Backend Developer - Teasa | Tehran, Iran | 2015 - 2018</strong>
-                    <ul>
-                        <li>Designed and developed RESTful APIs for a mobile application, increasing user engagement by 25%.</li>
-                        <li>Collaborated with cross-functional teams to design and implement applications, boosting user satisfaction by 15% and user retention by 10%.</li>
-                        <li>Participated in code reviews and provided feedback, enhancing code quality by 20%.</li>
-                        <li>Identified and fixed critical bugs, achieving a 50% reduction in crash rates and ensuring high system reliability.</li>
-                    </ul>
-                </li>
-            </ul>
-        </div>
-        <h2>Projects</h2>
-        <div class="projects">
-            <ul>
-                <li>Jibitex: Engineered and deployed a crypto exchange system, optimizing performance and scalability to handle high trading volumes in the Iranian cryptocurrency market; achieved seamless transaction processing.</li>
-                <li>PushX: Prepared a backend infrastructure for a multi-city drink and ticket purchasing application, resulting in a 30% increase in user engagement and a 25% boost in sales revenue.</li>
-                <li>Tethermart: Executed and launched Tethermart, a cutting-edge web and mobile application for cryptocurrency exchange; facilitated seamless trading experience for users.</li>
-                <li>Hyper Office: Architected and deployed an application for data owners, enabling seamless management and tracking of data flows; instrumental in achieving a 30% improvement in data accuracy and a 20% increase in efficiency across the organization.</li>
-                <li>360: Educational mobile application.</li>
-                <li>Mamanet: Entertainment and educational application for children 3 to 7 years old.</li>
-                <li>Soccer: Training application for a football academy.</li>
-                <li>Bankbar: Application for managing cargo between freight owner and driver.</li>
-            </ul>
-        </div>
-        <h2>Education</h2>
-        <div class="education">
-            <p><strong>Master | University of Qom | 2013 - 2015</strong><br>Information Technology, E-Commerce</p>
-            <p><strong>Bachelor | Islamic Azad University | 2008 – 2012</strong><br>Information Technology</p>
-        </div>
-        <h2>Languages</h2>
-        <div class="languages">
-            <p>Persian, English</p>
-        </div>
+      </div><br>
+
+    <!-- End Left Column -->
     </div>
+
+    <!-- Right Column -->
+    <div class="w3-twothird">
+    
+      <div class="w3-container w3-card w3-white w3-margin-bottom">
+        <h2 class="w3-text-grey w3-padding-16"><i class="fa fa-suitcase fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>Work Experience</h2>
+        <div class="w3-container">
+          <h5 class="w3-opacity"><b>Java Backend Developer / Teanab</b></h5>
+          <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Nov 2018 - <span class="w3-tag w3-teal w3-round">Current</span></h6>
+          <p>- Developed and maintained a scalable and efficient backend system and improved system performance.
+<br>- Implemented a database optimization strategy that increased database query speed.
+<br>- Created comprehensive unit tests, reducing testing time by 30% and increasing test coverage.
+<br>- Mentoring and training junior members.
+<br>- Created comprehensive unit tests and increasing test coverage.
+<br>- Participated in code review and providing feedback to others.</p>
+          <hr>
+        </div>
+        <div class="w3-container">
+          <h5 class="w3-opacity"><b>Java Backend Developer / Teasa</b></h5>
+          <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>May 2015 - Oct 2018</h6>
+          <p>- Designed and developed RESTful APIs for a mobile application that raised user engagement.
+<br>- Collaborated with cross-functional teams to design and implement applications.
+<br>- Participated in code review and providing feedback to others.</p></br>
+        </div>
+      </div>
+
+        <div class="w3-container w3-card w3-white">
+        <h2 class="w3-text-grey w3-padding-16"><i class="fa fa-certificate fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>Education</h2>
+        <div class="w3-container">
+          <h5 class="w3-opacity"><b>University of Qom - Information Technology</b></h5>
+          <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>2013 - 2015</h6>
+          <p>Master Degree</p>
+          <hr>
+        </div>
+        <div class="w3-container">
+          <h5 class="w3-opacity"><b>Islamic Azad University - Information Technology</b></h5>
+          <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>2008 - 2012</h6>
+          <p>Bachelor Degree</p><br>
+        </div>
+      </div>
+
+    <!-- End Right Column -->
+    </div>
+    
+  <!-- End Grid -->
+  </div>
+  
+  <!-- End Page Container -->
+</div>
+
+<footer class="w3-container w3-teal w3-center w3-margin-top">
+  <p></p></br>
+</footer>
+
 </body>
 </html>
