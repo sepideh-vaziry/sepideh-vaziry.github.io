@@ -6,14 +6,18 @@
     <title>Resume - Sepideh Vaziry</title>
     <style>
         body {
-            font-family: Arial, sans-serif;
+            font-family: 'Arial', sans-serif;
             margin: 0;
-            padding: 20px;
-            line-height: 1.6;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
         }
         .container {
-            max-width: 800px;
-            margin: 0 auto;
+            max-width: 900px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
         }
         h1, h2 {
             color: #333;
@@ -23,14 +27,36 @@
             padding-bottom: 10px;
         }
         .contact-info, .skills, .experience, .projects, .education, .languages {
-            margin-bottom: 20px;
+            margin-bottom: 30px;
         }
         .contact-info p, .skills ul, .experience ul, .projects ul, .education p, .languages p {
-            margin: 5px 0;
+            margin: 10px 0;
         }
         .skills ul, .experience ul, .projects ul {
             list-style-type: none;
             padding: 0;
+        }
+        .skills ul li, .experience ul li, .projects ul li {
+            background: #f9f9f9;
+            margin-bottom: 5px;
+            padding: 10px;
+            border: 1px solid #ddd;
+        }
+        .experience ul li ul, .projects ul li ul {
+            margin-top: 10px;
+        }
+        .experience ul li ul li, .projects ul li ul li {
+            background: #fff;
+            border: none;
+            margin: 0;
+            padding: 0;
+        }
+        .contact-info a {
+            color: #0073e6;
+            text-decoration: none;
+        }
+        .contact-info a:hover {
+            text-decoration: underline;
         }
     </style>
 </head>
@@ -38,7 +64,7 @@
     <div class="container">
         <h1>Sepideh Vaziry</h1>
         <div class="contact-info">
-            <p>Java Backend Developer</p>
+            <p><strong>Java Backend Developer</strong></p>
             <p>Tehran, Iran</p>
             <p>Phone: (+98) 9126433991</p>
             <p>Email: <a href="mailto:sepideh.vaziry@gmail.com">sepideh.vaziry@gmail.com</a></p>
